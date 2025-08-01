@@ -1,0 +1,17 @@
+{
+  "name": "simple-chatbot",
+  "version": "1.0.0",
+  "description": "A minimalist chatbot powered by OpenAI's ChatGPT API",
+  "main": "index.html",
+  "scripts": {
+    "dev": "netlify dev",
+    "build": "echo 'No build step required'",
+    "deploy": "netlify deploy --prod"
+  },
+  "keywords": ["chatbot", "openai", "netlify", "javascript"],
+  "author": "",
+  "license": "MIT",
+  "devDependencies": {
+    "netlify-cli": "^15.0.0"
+  }
+}
